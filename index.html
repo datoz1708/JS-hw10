@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    let mainArray = [12, 67, 34, 122, 10, -90, -12, -100, -546, 3452, -1, -2];
+
+    let positiveArray = [];
+    let negativeArray = [];
+
+    for (let i = 0; i < mainArray.length; i++) {
+      if (mainArray[i] >=0) {
+        positiveArray.push(mainArray[i]);
+      } else {
+        negativeArray.push(mainArray[i]);
+      }
+    }
+
+    document.write("დადებითი რიცხვები : ", positiveArray);
+    document.write("უარყოფითი რიცხვები : ", negativeArray);
+  </script>
+</head>
+<body>
+        
+</body>
+</html>
+
